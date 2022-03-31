@@ -3,7 +3,7 @@ let elencoinvitati = ['tonno lazaga', 'giacomo bosio', 'samur lolli', 'giangi br
 let nome = prompt('inserisci nome')
 let statusInvito = ''
 for (let i = 0; i < elencoinvitati.length; i++){
-    if (nome == elencoinvitati[i]){
+    if (nome === elencoinvitati[i]){
         statusInvito = `<h1> il tuo invito è valido! </h1>` 
         document.getElementById('miodiv').innerHTML = statusInvito
     } else {
